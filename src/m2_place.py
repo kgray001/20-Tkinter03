@@ -15,7 +15,7 @@ import tkinter as tk
 #   Once you have done this, then change the above _TODO_ to DONE.
 #
 #
-# TODO: 2. (4 pts)
+# DONE: 2. (4 pts)
 #
 #   Now, create one frame dimensions 200 by 200.
 #
@@ -42,22 +42,25 @@ frame1.pack()
 labelA = tk.Label(
     master = frame1,
     text = "Label A",
-    bg = "black"
+    bg = "black",
+    fg = "white"
 )
 labelA.place(x = 0, y = 0)
 
 labelB = tk.Label(
     master = frame1,
     text = "Label B",
-    bg = "blue"
+    bg = "blue",
+    fg = "white"
 )
-labelB.pack(x = 50, y = 50)
+labelB.place(x = 50, y = 50)
 
 labelC = tk.Label(
     master = frame1,
     text = "Label C",
-    bg = "green"
+    bg = "green",
+
 )
-labelC.pack(x = 100, y = 100)
+labelC.place(x = 100, y = 100)
 
 window.mainloop()
